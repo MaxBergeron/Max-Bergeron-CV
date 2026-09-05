@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  }
+
+/****************   Nav Section **********************/
+nav {
+	background-color: #EDFFFD;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/***********************  Footer Section   **************************/
+footer {
+	background-color: #EDFFFD;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/*********** Splash Page ************************/
+header {
+background-color: #BFE8FD;
+justify-content: center;
+padding: 60px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header h1 {
+  font-family: 'Fira Sans', sans-serif;
+  color: #64BAFE;
+}
+
+header img {
+  border: 5px solid #BFE8FD;
+  border-radius: 50%;
+}
+
+.address {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #9CADC7;
+  padding-left: 20px;
+}
+
+.tagline {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #9CADC7;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+/************* Sections ********************/
+hr {
+ color: #BFE8FD;
+}
+
+section h2 {
+  font-family: 'PT Sans', sans-serif;
+  color: #779EB2;
+  padding-left: 15px;
+}
+
+section h3 {
+  font-family: 'PT Sans', sans-serif;
+  color: #618191;
+  padding-left: 15px;
+}
+
+section dl {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding-left: 30px;
+
+}
+
+section ul {
+  padding-left: 30px;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+section a {
+  color: #1b58ff;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/**************   Projects   *****************/
+.three-col {
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card img {
+  justify-content: center;
+}
+.card img:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card {
+  border: 1px solid #BFE8FD;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: black;
+  background-color: #EDFFFD;
+  width: 100%;
+  text-align: center;
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      flex-direction: column;
+
+    }
+
+    .three-col {
+      grid-template-columns: 1fr;
+    }
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+    border: 1px solid #779EB2;
+}
+
+textarea {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #779EB2;
+}
