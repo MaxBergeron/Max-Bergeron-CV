@@ -97,10 +97,10 @@ section a:hover {
 
 .card img {
   justify-content: center;
+  transition: transform 0.2s ease-in-out;
 }
 .card img:hover {
   transform: scale(1.05);
-  transition: transform 0.2s ease-in-out;
 }
 
 .card {
